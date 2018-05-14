@@ -28,6 +28,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/vs985/bluetooth
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_vs985_defconfig
 TARGET_REQUIRES_BUMP := true
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # NFC
 BOARD_NFC_CHIPSET := pn547
