@@ -46,7 +46,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 27325360128
 TARGET_USERIMAGES_USE_F2FS := true
 
 # Recovery
-TARGET_RECOVERY_FSTAB := device/lge/vs985/rootdir/etc/fstab.recovery
+TARGET_RECOVERY_FSTAB := device/lge/vs985/rootdir/etc/fstab.g3
 
 # RIL
 BOARD_GLOBAL_CFLAGS += -DUSE_RIL_VERSION_10
